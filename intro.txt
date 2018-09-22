@@ -1,0 +1,96 @@
+                       Introduction
+
+                What is Bootstrap?
+
+    Open source front-end framework or UI for fast web developement.Sometimes also called CSS framework.
+
+    It gives tons of tools to create Web sites and application and we get all types of utility classes for amrgin and padding
+    typography as well as component classes that are basicaly like pre-made templates for things like alerts progress bars
+    etc.
+
+    We also get builtin javascript widgets and plugins.
+
+    Easy to use mobile first grid responsive layout.
+
+         
+                 Advantages
+                
+    Browser Compatibility.
+
+    Faster Developement. 
+
+    Good for devs that lack design/UI lack.
+
+    Easy to learn.
+
+    Responsive layouts.
+
+                  Way to install/USe Bootstrap
+
+    Include the CDN(content deleievery network)
+
+    Download & Include files.
+
+    Package Managers-NPM/Yarm.
+
+                  UI Utilities
+
+    Grid System.
+
+    Text and Typography classes.
+
+    Positioning.
+
+    Spacing.
+    
+    Sizing.
+
+    Alignment.
+
+    Colors.
+
+   Images.
+
+   Responsive Utilities.
+
+   Shadows.
+
+                      CSS component
+
+  Forms & input groups
+
+  Tabels
+
+  List Groups
+
+  Cards
+
+  Progress Bars
+
+  Alerts
+
+  Navbar & Menues
+
+  Button & Button Groups
+
+  Pagination
+
+  Media Objects
+
+  Jumbotron
+
+  Badges
+
+                          Javascript widgets
+
+  Carousel Slider
+
+  Collapsible Accordion
+
+  Modals
+
+  Tooltips
+
+  Popovers
+
+  Scrollsp
