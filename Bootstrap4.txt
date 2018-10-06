@@ -1,0 +1,291 @@
+   
+
+     Text Alignment Display
+
+ <!--Justify-->
+class="text-justify"(inline)
+    <!--Alignments-->
+class="text-left"(left)
+class="text-right"(right)
+class="text-center"(center)
+     <!--Responsive Align-->
+class="text-sm-right"(responsive-right)
+class="text-md-left"(responsive-left)
+class="text-lg-center"(responsive-center)
+class="text-xl-right"(responsive-right)
+     <!--Verticle Alignment-->
+class="align-baseline"
+class="align-top"
+class="align-bottom"
+class="align-middle"
+class="align-text-top"
+class="align-text-bottom"
+       <!-- TURN BLOCK TO INLINE -->
+class="bg-success" (green color)
+class="d-inline"  (to convert block line element into an inline element)
+ 	<!-- TURN INLINE TO BLOCK -->
+class="bg-primary" (blue color)
+class="d-block" (vice versa)
+      <!-- INLINE BLOCK -->
+class="bg-warning" (yellow color)
+class="bg-inline-block" (for divs for to convert them next to each other)
+
+
+
+          Floats Fixed Positions
+       
+
+     <!-- FLOATS -->
+class="float-left" (right,none)
+   
+     <!-- RESPONSIVE FLOATS -->
+class="float-sm-right"
+
+       <!-- CLEARFIX -->
+class="clearfix" (so that whatever come next will be display underneath this)
+<div class="bg-success clearfix">
+<button class="float-left">
+<button class="float-right">    
+
+      <!-- FIXED TOP -->
+class="fixed-top"
+
+      <!-- FIXED STICKY -->
+class="sticky-top"  (but when we go rown that particular positio then it will be on top but not, when we move from upto it.  )
+  
+      <!-- FIXED BOTTOM -->
+class="fixed-bottom"
+             
+
+
+                Colors and Backgrounds
+
+
+primary is defaut in bootstrap4.
+    
+          <!-- TEXT COLORS -->
+class="text-primary"  (blue)
+secondary  (greyish-like)
+success   (green)
+warning   (orange)
+danger    (red)
+light  (light appearence)
+dark   (dark appearence)
+white   (no appearence)
+muted   (light gryeish-like)
+black-50  (half of black)
+white or white-50 (half of white)
+      
+         <!-- LINK COLORS -->
+
+For links text-color will be used as same as for text colors. But the only ifferbce is that it will be used inside an <a>.It will change the color of text as well as color of bottom line. 
+   <a href="#" class="text-primary">
+
+	 <!-- BACKGROUND COLORS -->
+Same colors for backgrond.
+class="bg-transparent" (it is for images. It would be se seems like that it does not have any effect but it is effected when there will be something in background)
+
+ 	<!-- INVISIBLE -->
+class="invisible"
+It just add the visiblity property in CSS and sets to hidden which is differnt than display none with display. 
+None , it actually basically takes it out of the dorm(soya hua) and you can't see the spacing for it.
+Visibilty it's still there you just can't see it.
+		
+
+		
+		Margin Padding Spacing
+
+
+	<!-- MB MARGIN BOTTOM -->
+<h1 class="mb-0"></h1>
+
+	 <!-- MT MARGIN TOP -->
+<h1 class="mt-0"></h1>
+
+	<!-- ML & MR -->
+<span class="ml-0"></span>
+<span class="mr-0"></span>
+
+	 <!-- MX MARGIN LEFT RIGHT -->
+for left and right at same time we could do x
+It apply given margin at each side.
+<span class="mx-5"></span>
+
+	 <!-- MY  MARGIN TOP BOTTOM -->
+class="my-5"
+
+	<!-- BLANK - ALL SIDES -->
+class="m-5"
+
+	<!-- pb PADDING BOTTOM -->
+class="pb-0"
+
+            <!-- PT PADDING TOP -->
+class="pt-0"
+
+	<!-- PL & PR -->
+class="pl-0"
+class="pr-0"
+
+	<!-- PX PADDING LEFT RIGHT -->
+class="px-5"
+
+	<!-- PY  PADDING TOP BOTTOM -->
+class="py-5"
+
+	<!-- ALL SIDES -->
+class="p-5"
+
+	 <!-- HORIZONTAL CENTERING -->
+class="mx-auto" (In center)
+
+
+		Sizing and Borders
+
+
+	<!-- WIDTH CLASSES -->
+ <div class="bg-success p-3 w-25">Width 25%</div>
+<div class="bg-success p-3 w-auto">Width 25%</div>
+
+	<!-- HEIGHT CLASSES -->
+<div style="height: 300px ; border: 1px solid #333">
+  <div class="h-25"></div>
+</div>
+
+	<!-- BORDERS -->
+class="regular" 
+(
+"border-left"
+"border-right"
+"border-top"
+border-bottom"
+)
+
+	 <!-- BORDER COLORS -->
+<div class="p-3 mb-2 bg-light border border-primary">Primary</div> (for all colors)
+
+	
+	 <!-- BORDER RADIUS -->
+<div class="p-3 mb-2 bg-light border rounded border-warning">Rounded</div>
+"border rounded-right,left,top,bottom,circle"
+if rounded by-default and you wanted to take that away you could do border and then you could say rounded dash 0 if you 
+wanted to take radius away.
+Thrn there are sharp corner.
+ 
+
+		CSS Breakpoints
+
+	/* Small devices (landscape phones) */
+
+@media (min-width: 576px) {
+	body {
+	color: red;
+	}
+       }
+
+	 /* Medium devices (tablets) */
+(min-width: 768px)
+
+	/* Large devices (desktops) */
+992px
+
+	 /* Extra large devices (large desktops) */
+1200px
+
+	
+        /* The given screen size or smaller */
+
+        /* Extra small devices (portrait phones)*/
+(max-width: 575px)
+
+	  /* Small devices (landscape phones)*/
+767px
+
+	/* Medium devices (tablets)*/
+991px
+
+	/* Large devices (desktops)*/
+1199px
+
+
+								Buttons and Button Groups
+						
+				<!-- BUTTONS -->
+
+<button class="btn btn-primary" type="buttonn">Primary</button>   <!--btn is core button class-->
+			
+			 <!-- BUTTON TAGS/TYPES -->
+
+Buttons are also used in many elements.Like as
+						<a class="btn btn-primary" href="#" role="button">Link</a>
+            <button class="btn btn-success" type="submit">Button</button>
+            <input class="btn btn-light" type="button" value="Input">
+            <input class="btn btn-warning" type="submit" value="Submit">
+            <input class="btn btn-info" type="reset" value="Reset">
+
+			 <!-- OUTLINE BUTTONS -->
+	
+	 <button class="btn btn-outline-primary" type="button">Primary Outline</button>  <!--it will be blue outline and blue text but white background-color-->
+
+
+	 <!-- BUTTON SIZES -->
+
+We include the CDN for fun awsome which is an icon library which will be using quite a bit throught the projects.
+Basically it is for the icon(contact like)
+
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" > 
+Basically the part which on top.
+<!-- integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+            crossorigin="anonymous"> -->
+
+			<button class="btn btn-primary btn-lg" type="button"> <!--i tag for icon-->
+                <i class="fa fa-user"></i> Large button</button>
+            <button class="btn btn-success btn-sm" type="button">Small button</button>
+            <br>
+            <br>
+            <button class="btn btn-dark btn-block" type="button">Block level button</button> <!--btn-block for block level elements-->
+
+			<!-- STATES -->
+          
+					  <button class="btn btn-primary" type="button">Regular Button</button> <!--for regular button with no effect-->
+            <button class="btn btn-primary active" type="button">Active Button</button> <!--for making a button active on web dynamic applications and mobile devices-->
+            <button class="btn btn-primary disabled" type="button">Disabled Button</button><!--there will be no special effect means that the cursor will not be active-->
+            <!--introduce a data-toggle class that change the color of button fro regular to active when click on it also highlight to it-->
+            <button class="btn btn-primary" type="button" data-toggle="button">
+                Toggle State
+            </button>
+
+			  <!-- BUTTON GROUPS -->
+           
+	<!--for Groups that will be declared in div
+	it will add some padding to left or right buttons while middle will remain same--> 
+					  <div class="btn-group">
+                <button class="btn btn-primary" type="button">Left</button>
+                <button class="btn btn-secondary" type="button">Middle</button>
+                <button class="btn btn-primary" type="button">Right</button>
+            </div>
+
+
+           <!-- BUTTON TOOLBAR -->
+  
+	<div class="ntn-toolbar">
+	   <div class="btn-group">
+		 </div>
+	</div>
+
+	    	<!-- VERTICAL GROUP -->
+
+	<div class="btn-group-vertical"></div>
+
+			<!-- BUTTON DROPDOWNS -->
+
+ <div class="dropdown">
+    <button class="toggle-dropdown" type="button" data-toggle="dropdown"></button> <!--color-class-->
+		<div class="dropdown=menu">
+		   <a class="dropdown-list" href="#">Link</a>
+		</div>
+ </div>			
+			
+				
+
+	
