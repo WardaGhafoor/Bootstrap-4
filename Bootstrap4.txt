@@ -285,180 +285,54 @@ Basically the part which on top.
 		   <a class="dropdown-list" href="#">Link</a>
 		</div>
  </div>			
+
+
+								List Groups and badges
+
+				 <!-- LIST GROUP -->
+            <ul class="list-group mb-5">
+                <li class="list-group-item">My List Item One</li></ul>
+
+				 <!-- LIST GROUP WITH LINKS -->(same)
+
+				  <!-- CONTEXTUAL CLASSES -->
+            <ul class="list-group mb-5">
+                <li class="list-group-item">Regular List Item</li>
+                <li class="list-group-item list-group-item-primary">Primary List Item</li>
+						</ul>
+
+				 <!-- FLUSH LIST GROUP -->
+            <ul class="list-group list-group-flush mb-5">
+                <li class="list-group-item">My List Item One</li>
+						</ul>
+
+						 <!-- BADGE -->
+            <ul class="list-group mb-5">
+                <li class="list-group-item">My List Item One</li>
+                <li class="list-group-item d-flex justify-content-between align-item-center">My List Item Two
+                    <span class="badge badge-primary">30</span>
+                </li></ul>
+
+								<!-- BREADCRUMB -->
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item ">Home</li>
+            </ol>
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item ">
+                    <a href="#">Home</a>
+                </li>
+                <li class="breadcrumb-item ">Users</li>
+            </ol>
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item ">
+                    <a href="#">Home</a>
+                </li>
+                <li class="breadcrumb-item ">
+                    <a href="#">Users</a>
+                </li>
+                <li class="breadcrumb-item active">Brad</li>
+            </ol>
+
+        </div>
 			
-
-
-
-	  <!-- SIMPLE NAVBAR -->
-        <nav class="navbar navbar-expand-sm navbar-light bg-light mb-3">
-            <div class="container">
-                <a class="navbar-brand" href="#">Navbar</a>
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-
-        <!-- NAVBAR WITH RESPONSIVE TOGGLE -->
-        <nav class="navbar navbar-expand-sm navbar-light bg-light mb-3">
-            <div class="container">
-                <a class="navbar-brand" href="#">Navbar</a>
-                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
-        <!-- NAVBAR WITH FORM -->
-
-        <nav class="navbar navbar-expand-sm navbar-light bg-light mb-3">
-            <div class="container">
-                <a class="navbar-brand" href="#">Navbar</a>
-                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
-                        </li>
-                    </ul>
-                    <form class="form-inline ml-auto">
-                        <input type="text" class="form-control mr-2" placeholder="search">
-                        <button class="btn btn-outline-success">Search</button>
-                    </form>
-                </div>
-            </div>
-        </nav>
-
-        <!-- NAVBAR WITH DROPDOWN -->
-
-        <nav class="navbar navbar-expand-sm navbar-light bg-light mb-3">
-            <div class="container">
-                <a class="navbar-brand" href="#">Navbar</a>
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Dropdown</a>
-                        <div class="dropdown-menu">
-                            <a href="" class="dropdown-item">Link 1</a>
-                            <a href="" class="dropdown-item">Link 2</a>
-                            <a href="" class="dropdown-item">Link 3</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-
-        <!-- COLORS -->
-        <nav class="navbar navbar-expand-sm navbar-dark bg-dark mb-3">
-            <div class="container">
-                <a class="navbar-brand" href="#">Navbar</a>
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>		
-
-
-				 <!-- FIXED BOTTOM -->
-        <nav class="navbar fixed-bottom navbar-dark bg-dark">
-            <a href="#" class="navbar-brand">Navbar Fixed Top</a>
-        </nav>
-
-        <!-- STICKY TOP -->
-        <nav class="navbar sticky-top navbar-dark bg-dark">
-            <a href="#" class="navbar-brand">Navbar Fixed Top</a>
-        </nav>
-
-				 <!-- NAVS -->
-            <ul class="nav nav-pills">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link 1</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">Link 2</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link 3</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link 4</a>
-                </li>
-            </ul>
-
-
-       <!-- HORIZONTAL ALIGN -->
-            <ul class="nav nav-pills justify-content-center">
-
-      
-            <!-- RIGHT ALIGN -->
-
-            <ul class="nav nav-pills justify-content-end">
-
-						<!-- VERTICAL -->
-
-            <ul class="nav nav-pills flex-column">
-
-						<!-- FILL & JUSTIFY -->
-            <ul class="nav nav-fill nav-pills">
-
-	
+				
