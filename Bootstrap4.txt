@@ -285,7 +285,54 @@ Basically the part which on top.
 		   <a class="dropdown-list" href="#">Link</a>
 		</div>
  </div>			
+
+
+								List Groups and badges
+
+				 <!-- LIST GROUP -->
+            <ul class="list-group mb-5">
+                <li class="list-group-item">My List Item One</li></ul>
+
+				 <!-- LIST GROUP WITH LINKS -->(same)
+
+				  <!-- CONTEXTUAL CLASSES -->
+            <ul class="list-group mb-5">
+                <li class="list-group-item">Regular List Item</li>
+                <li class="list-group-item list-group-item-primary">Primary List Item</li>
+						</ul>
+
+				 <!-- FLUSH LIST GROUP -->
+            <ul class="list-group list-group-flush mb-5">
+                <li class="list-group-item">My List Item One</li>
+						</ul>
+
+						 <!-- BADGE -->
+            <ul class="list-group mb-5">
+                <li class="list-group-item">My List Item One</li>
+                <li class="list-group-item d-flex justify-content-between align-item-center">My List Item Two
+                    <span class="badge badge-primary">30</span>
+                </li></ul>
+
+								<!-- BREADCRUMB -->
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item ">Home</li>
+            </ol>
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item ">
+                    <a href="#">Home</a>
+                </li>
+                <li class="breadcrumb-item ">Users</li>
+            </ol>
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item ">
+                    <a href="#">Home</a>
+                </li>
+                <li class="breadcrumb-item ">
+                    <a href="#">Users</a>
+                </li>
+                <li class="breadcrumb-item active">Brad</li>
+            </ol>
+
+        </div>
 			
 				
-
-	
