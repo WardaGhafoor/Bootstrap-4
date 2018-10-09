@@ -334,5 +334,41 @@ Basically the part which on top.
             </ol>
 
         </div>
-			
+
+
+                    Input-Groups
+                    
+
+        <!-- BASIC INPUT GROUPS -->
+
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">@</span>
+                </div>
+                <input class="form-control" type="text" placeholder="Username">
+            </div>
+
+        <!--prepend and append-->
+
+         <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">$</span>
+                </div>
+                <input class="form-control" type="text">
+                <div class="input-group-append">
+                    <span class="input-group-text">.00</span>
+                </div>
+            </div>
+
+        
+            <!-- BUTTON ADDONS -->
+
+            <div class="input-group mb-3">
+                <input class="form-control" type="text" placeholder="Find By Name...">
+                <div class="input-group-prepend">
+                    <button class="btn btn-outline-secondary" type="button">Search</button>
+                </div>
+            </div>
+
+
 				
