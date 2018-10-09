@@ -435,6 +435,77 @@ Basically the part which on top.
                     Password does not match
                 </div>
             </div>
+
+
+                  Alerts and Progress
+
+
+          <!-- ALERTS -->
+
+            <div class="alert alert-primary">
+                <strong>Primary</strong> Blog post added
+            </div> (with all colors)
+
+            <!-- DISMISSABLE ALERT -->
+
+            <div class="alert alert-success alert-dismissible">
+                <button class="close" type="button" data-dismiss="alert">
+                    <span>&times;</span>
+                </button>
+                <strong>Dismissable</strong> Blog post added
+            </div>
+
+            <!-- EXTRA CONTENT -->
+
+            <div class="alert alert-success">
+                <h4 class="alert-heading">Congrats!</h4></div>
+
+             <div class="alert alert-success">
+                <h4 class="alert-heading">Congrats!</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit dignissimos eius, sit quo assumenda
+                    totam commodi
+                    ipsum saepe molestias eligendi exercitationem repudiandae qui facilis deserunt non, harum ab quam?
+                    Cumque</p>
+                <hr>
+                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, odio?</p>
+            </div>
+
+            <!-- PROGRESS BARS -->
+
+            <div class="progress">(simple)
+                <div class="progress-bar" style="width: 35%;"></div>
+            </div>
+          
+            <div class="progress">
+                <div class="progress-bar" style="width: 35%;">35%</div>
+            </div>
+         
+            <!-- HEIGHT -->
+
+            <div class="progress" style="height: 1px;">
+                <div class="progress-bar bg-success" style="width: 75%;"></div>
+            </div>
+            
+            <!-- STRIPED -->
+
+            <div class="progress">
+                <div class="progress-bar bg-danger progress-bar-striped" style="width: 35%;"></div>
+            </div>
+           
+            <!-- ANIMATED -->
+
+            <div class="progress">
+                <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" style="width: 35%;"></div>
+            </div>
+         
+            <!-- MULTIPLE BARS -->
+            
+            <div class="progress">
+                <div class="progress-bar" style="width: 25%;"></div>
+                <div class="progress-bar bg-success" style="width: 25%;"></div>
+                <div class="progress-bar bg-info" style="width: 25%;"></div>
+            </div>
+
      
 			
 				
