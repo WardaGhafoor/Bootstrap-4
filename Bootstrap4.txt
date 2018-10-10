@@ -507,3 +507,30 @@ Basically the part which on top.
                     </li>
                 </ul>
             </nav>
+
+
+                    Media Objects
+        
+         <!-- MEDIA OBJECT -->
+
+            <div class="media">
+                <img class="mr-3 mt-3" src="https://source.unsplash.com/random/90x90">
+                <div class="media-body"><h1></h1>
+            </div>
+
+         <!-- TOP ALIGNED (DEFAULT) -->
+
+             <img class="mr-3 align-self-start" >
+
+         <!-- CENTER ALIGNED -->
+
+             <img class="mr-3 align-self-center" >
+        <!-- BOTTOM ALIGNED -->
+    
+             <img class="mr-3 align-self-end" >
+         <!-- MEDIA LIST -->
+
+            <ul class="list-unstyled">
+                <li class="media">which ever data in it.
+            </ul>
+            
