@@ -509,28 +509,21 @@ Basically the part which on top.
             </nav>
 
 
-                    Media Objects
-        
-         <!-- MEDIA OBJECT -->
+                    Jumbotron
 
-            <div class="media">
-                <img class="mr-3 mt-3" src="https://source.unsplash.com/random/90x90">
-                <div class="media-body"><h1></h1>
-            </div>
+          <!-- JUMBOTRON -->
 
-         <!-- TOP ALIGNED (DEFAULT) -->
+      <div class="jumbotron text-center">
+        <h1 class="display-4">Welcome To My Website!</h1>
+        <p class="lead">Lorem ipsum, dolor sit amet </p>
+    </div>
 
-             <img class="mr-3 align-self-start" >
-
-         <!-- CENTER ALIGNED -->
-
-             <img class="mr-3 align-self-center" >
-        <!-- BOTTOM ALIGNED -->
-    
-             <img class="mr-3 align-self-end" >
-         <!-- MEDIA LIST -->
-
-            <ul class="list-unstyled">
-                <li class="media">which ever data in it.
-            </ul>
             
+    <!-- FLUID JUMBOTRON -->
+
+    <div class="jumbotron jumbotron-fluid text-center">
+      <div class="container">
+        <h1 class="display-4">Fluid Jumbotron</h1>
+        <p class="lead">Lorem ipsum dolor sit amet</p>
+    </div>
+
