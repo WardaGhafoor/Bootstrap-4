@@ -507,3 +507,23 @@ Basically the part which on top.
                     </li>
                 </ul>
             </nav>
+
+
+                    Jumbotron
+
+          <!-- JUMBOTRON -->
+
+      <div class="jumbotron text-center">
+        <h1 class="display-4">Welcome To My Website!</h1>
+        <p class="lead">Lorem ipsum, dolor sit amet </p>
+    </div>
+
+            
+    <!-- FLUID JUMBOTRON -->
+
+    <div class="jumbotron jumbotron-fluid text-center">
+      <div class="container">
+        <h1 class="display-4">Fluid Jumbotron</h1>
+        <p class="lead">Lorem ipsum dolor sit amet</p>
+    </div>
+
