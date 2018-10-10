@@ -530,63 +530,25 @@ Basically the part which on top.
                  <!--End CSS Components--->
 
 
+                 Auto Margins Wraping Order
+        
+         <!-- MR-AUTO -->
+            <div class="d-flex row-hl">
+                <div class="mr-auto p-2 item-hl">Flex item</div>
+        
+         <!-- ML-AUTO -->
+            <div class="d-flex row-hl">
+                <div class="p-2 item-hl">Flex item</div>
+                <div class="p-2 item-hl">Flex item</div>
+                <div class="ml-auto p-2 item-hl">Flex item</div>
+            </div>
 
-             Flexbox
+        <!-- MB-AUTO -->
+        <!-- MT-AUTO -->
+        <!-- NO WRAP -->
+            <div class="d-flex flex-nowrap row-hl">
 
-          Flexbox CLASSES
-
-         <!-- FLEX ROW & FLEX ITEMS -->
-
-      <div class=" d-flex flex-row row-hl">
-        <div class="p-4 item-hl">Flex Item</div>
-        <div class="p-4 item-hl">Flex Item</div>
-        <div class="p-4 item-hl">Flex Item</div>
-      </div>
-   
-    <!-- FLEX ROW REVERSE -->
-      <div class="d-flex flex-row flex-row-reverse row-hl">
-
-    <!-- JUSTIFY CONTENT - CONTENT START -->
-      <div class="row-hl d-flex justify-content-start">
-
-    <!-- JUSTIFY CONTENT - CONTENT CENTER -->
-      <div class="d-flex justify-content-center row-hl">
-
-    <!-- JUSTIFY CONTENT - CONTENT END -->
-      <div class="d-flex justify-content-end row-hl">
-
-    <!-- JUSTIFY CONTENT - CONTENT AROUND -->
-      <div class="d-flex justify-content-around row-hl">
-
-    <!-- JUSTIFY CONTENT - CONTENT BETWEEN -->
-      <div class="d-flex justify-content-between row-hl">
-
-    <!-- FLEX COLUMN -->
-      <div class="d-flex flex-column row-hl">
-
-    <!-- FLEX COLUMN REVERSE -->
-      <div class="d-flex flex-column-reverse row-hl">
-
-    <!-- VERTICAL ALIGN ITEMS - START -->
-      <div class="d-flex align-items-start row-hl">
-
-    <!-- VERTICAL ALIGN ITEMS - CENTER -->
-      <div class="d-flex align-items-center row-hl">
-    
-    <!-- VERTICAL ALIGN ITEMS - END -->
-      <div class="d-flex align-items-end row-hl">
-
-    <!-- VERTICAL ALIGN ITEMS - BASELINE -->
-      <div class="d-flex align-items-baseline row-hl">
-
-    <!-- VERTICAL ALIGN ITEMS - STRETCH -->
-      <div class="d-flex align-items-stretch row-hl">
-
-    <!-- ALIGN SELF -->
-      <div class="d-flex row-hl">
-        <div class="align-self-start p-4 item-hl">Flex Item</div>
-        <div class="align-self-center p-4 item-hl">Flex Item</div>
-        <div class="align-self-end p-4 item-hl">Flex Item</div>
-        <div class="align-self-baseline p-4 item-hl">Flex Item</div>
-        <div class="align-self-stretch p-4 item-hl">Flex Item</div>
-    </div>
+         <!-- WRAP -->
+            <div class="d-flex flex-wrap row-hl">
+        
+        <!-- ORDERING -->
